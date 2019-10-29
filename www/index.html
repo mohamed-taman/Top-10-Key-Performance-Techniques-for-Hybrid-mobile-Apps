@@ -26,7 +26,7 @@
 
     <img style="position: absolute; right: 10px; top: 10px; z-index: 6;"
          src="images/Java Champoins.jpeg" width="100" height="100" 
-         alt="Java Champoins">
+         alt="Java Champions">
 
     <div id="wrapper"></div>
 
@@ -38,14 +38,16 @@
 		<!-- Me, I, and Myself -->
         <div class="slide">
             <h1>Me, I, and Myself</h1>
-            <img src="images/TamanFace.jpg" style="width: 200px;height: 200px;border-radius: 50%">
-            <div style="text-align: left">
-                <p><span class="topcoat-icon icon--user"></span><strong>Mohamed Taman</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sr. Enterprise Architect / Sr. Software Engineer.</p>
-                <p><span class="topcoat-icon icon--location"></span>WebCentric, Belgrade, Serbia.</p>
-                <p><span class="topcoat-icon icon--more"></span>A Java Champions, Oracle Groundbreakers Ambassador, Java/Mobile/Web/Big Data/Cloud/Blockchain/DevOps Architect <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JCP, 2013-2015 Duke Award winner 3 times, 2013 JCP award winner, International Speaker.
+            <img src="images/TamanFace.jpg" style="width: 200px;height: 200px;border-radius: 50%" alt="">
+            <div style="text-align: left; font-size: 99%; margin: 0px 5% 0px 5%;">
+                <p><span class="topcoat-icon icon--user"></span><strong>Mohamed Taman</strong></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sr. Enterprise Architect.</p>
+                <p><span class="topcoat-icon icon--location"></span>DevTech, Belgrade, Serbia.</p>
+                <p><span class="topcoat-icon icon--more"></span>A Java Champions, Oracle Groundbreakers Ambassador, Java/Mobile/Web/Big Data/Cloud/Blockchain/DevOps Architect 
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JCP, 2013-2015 Duke Award winner 3 times, 2013 JCP award winner, International Speaker.
                 </p>
-                <p><span class="topcoat-icon icon--more"></span>Authored a <strong>“JavaFX 8 essential”</strong> book <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>"Hands-on Java 10 Programming with JShell"</strong> and,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>"Getting Started with Clean Code Java SE 9"</strong> video training for Packt and LinkedIn Learning (Lynda)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A technical reviewer of <strong>“Getting
-                    Started with Oracle Public Cloud”</strong> book for Packt Publishing.
+                <p><span class="topcoat-icon icon--more"></span>Authored a <strong>“JavaFX 8 essential”</strong> book, 
+                    <strong>"Hands-on Java 10 Programming with JShell"</strong> and, <strong>"Getting Started with Clean Code Java SE 9"</strong> 
+                    video training. A technical reviewer of <strong>“Getting Started with Oracle Public Cloud”</strong> book for Packt Publishing, while working on my new book <strong>"Secrets of the Java Champions"</strong>.
                 </p>
             </div>
         </div>
@@ -55,11 +57,12 @@
             <h1>You can find me here👇</h1>
             <div style="text-align: left">
                 <p><span class="topcoat-icon icon--twitter"></span>@_tamanm</p>
-                <p><span class="topcoat-icon icon--linkedin"></span>https://eg.linkedin.com/in/mohamedtaman</p>
-                <p><span class="topcoat-icon icon--facebook"></span>https://www.facebook.com/public/Mohamed-Mahmoud-Taman</p>
-                <p><span class="topcoat-icon icon--more"></span>https://about.me/mohamedtaman</p>
-                <p><span class="topcoat-icon icon--rss"></span>http://tamanmohamed.blogspot.com</p>
                 <p><span class="topcoat-icon icon--github"></span>https://github.com/mohamed-taman</p>
+                <p><span class="topcoat-icon icon--linkedin"></span>https://eg.linkedin.com/in/mohamedtaman</p>
+                <p><span class="topcoat-icon icon--more"></span>https://about.me/mohamedtaman</p>
+                <p><span class="topcoat-icon icon--facebook"></span>https://www.facebook.com/public/Mohamed-Mahmoud-Taman</p>
+                <p><span class="topcoat-icon icon--rss"></span>http://tamanmohamed.blogspot.com</p>
+                
             </div>
             <br/>
             <div>
@@ -77,7 +80,7 @@
 		<!-- Slow -->
         <div class="slide">
             <h1>Slow 🐌</h1>
-            <img src="images/geometrixx.jpg" height="500" /><br/>
+            <img src="images/geometrixx.jpg" height="500" alt=""/><br/>
             <xmp class="prettyprint">
 <a href="product.php?id=101">Tuareg Summer</a>
             </xmp>
@@ -94,7 +97,7 @@ $.get("product.php?id=101").done(function(page) {
         </div>
 
         <div class="slide green">
-            <div class="count">#10</div>
+            <div class="count">#11</div>
             <h1>Don't generate the UI on the server</h1>
         </div>
 
@@ -138,11 +141,11 @@ $.ajax({url: "services/states"}).done(function(data) {
     states = data;
 });
 </pre>
-            <p><img src="images/state-list.jpg" /></p>
+            <p><img src="images/state-list.jpg" alt="" /></p>
         </div>
 
         <div class="slide">
-            <div class="count">#9</div>
+            <div class="count">#10</div>
             <h1>Avoid Network Access</h1>
         </div>
 
@@ -174,11 +177,21 @@ dataAdapter.getItems().done(function(data) {
 
         <div class="slide">
             <h1>Limit Result Set Height</h1>
-            <h2>/movies/46637/comments?lastId=100</h2>
+<pre class="prettyprint">
+/movies/46637/comments?lastId=100
+</pre>
         </div>
 
         <div class="slide">
             <h1>Limit Result Set Width</h1>
+    <pre class="prettyprint">
+    {
+        id:"1212121",
+        name:"Mohamed Taman",
+        dsc:"Engineering Geek",
+        image:"Not intrested to show :D"
+    }  
+    </pre>
         </div>
 
         <div class="slide">
@@ -193,13 +206,13 @@ $.ajax({url: "product/101"}).done(function(product) {
         </div>
 
         <div class="slide">
-            <div class="count">#8</div>
+            <div class="count">#9</div>
             <h1>Don't wait for the data to display the UI</h1>
         </div>
 
         <div class="slide">
             <h1>Fast</h1>
-            <pre class="prettyprint">
+<pre class="prettyprint">
 // Display view
 displayView();
 
@@ -209,22 +222,39 @@ $.ajax({url: "product/101"}).done(function(product) {
 });
 </pre>
         </div>
+    <div class="slide">
+            <h1>Show some interactive loaders</h1>
+        <p style="text-align: center;">
+            <img src="images/load-indicator.gif" width="250" height="150" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/loading.gif"  width="150" height="150" alt="" />
+            <img src="images/preloader.gif" width="350" height="225" alt="" />
+            <img src="images/preloader1.gif" width="250" height="250" alt="" />
+            <img src="images/Loading1.gif"  width="350" height="200" alt="" />
+        </p>
+    </div>
 
         <div class="slide">
             <h1>Slow</h1>
+        </br>
             <pre class="prettyprint">
 $("#page").animate();
 </pre>
+<p>
+<img src="images/giphy.gif" width="250" height="250" alt="" />
+</p>
         </div>
 
         <div class="slide">
-            <div class="count">#7</div>
+            <div class="count">#8</div>
             <h1>Use CSS Transitions<br/>+<br/>Hardware Acceleration</h1>
+            <p>
+                <img src="images/Fast with CSS.gif" width="250" height="250" alt="" />
+            </p>
         </div>
 
         <div class="slide">
             <div style="position:relative; width: 1024px; height: 600px;">
-                <img id="phone" src="images/iphone5.png" style="position: absolute;left:349px;top:0px;width: 326px;" />
+                <img id="phone" src="images/iphone5.png" style="position: absolute;left:349px;top:0px;width: 326px;" alt=""/>
                 <div id="pageA" class="page page-left" style="background-color:red">
                     <a class="topcoat-button" onclick="javascript:slide('pageA', 'page-left')">Left</a>
                     <a class="topcoat-button" onclick="javascript:slide('pageA', 'page-center')">Center</a>
@@ -342,8 +372,8 @@ $("#page").animate();
         </div>
 
         <div class="slide">
-            <div class="count">#6</div>
-            <h1>Avoid Click Event's 300ms Delay</h1>
+            <div class="count">#7</div>
+            <h1>Avoid Click Event's 300ms Delay [Android]</h1>
         </div>
 
         <div class="slide">
@@ -379,7 +409,7 @@ $("#page").animate();
 
 
         <div class="slide">
-            <div class="count">#5</div>
+            <div class="count">#6</div>
             <h1>Optimize Images</h1>
         </div>
 
@@ -429,7 +459,7 @@ $("#page").animate();
 
 
         <div class="slide">
-            <div class="count">#4</div>
+            <div class="count">#5</div>
             <h1>Limit Shadows and Gradients</h1>
         </div>
 
@@ -444,7 +474,7 @@ $("#page").animate();
 
 
         <div class="slide">
-            <div class="count">#3</div>
+            <div class="count">#4</div>
             <h1>Minimize Reflows</h1>
         </div>
 
@@ -511,16 +541,23 @@ jQuery('#dialog-window').addClass('mask-aligned-window');
         </div>
 
         <div class="slide">
-            <div class="count">#2</div>
+            <div class="count">#3</div>
             <h1>Do you need that framework?</h1>
         </div>
 
         <div class="slide">
             <h1>Framework Considerations</h1>
             <ul style="padding: 0 60px;">
-                <li>Don't use a full-stack framework just because you like a small piece of it (i.e. transitions our UI components)</li>
-                <li>Understand the performance characteristics of libraries you use</li>
+                <li>Don't use a full-stack framework just <strong style="color: red;">because you like a small piece of it</strong> </br>(i.e. transitions our UI components).</br></br></li>
+                <li>Understand the performance characteristics of libraries you use.</li>
             </ul>
+        </div>
+
+        <div class="slide">
+            <div class="count">#2</div>
+            <h1>Faster Deployment</h1>
+            <p>Make use of docker layers, by separating commands inside your <code>dockerfile</code></p>
+            <img src="images/DockerLayers.gif" alt="" height="300"/>
         </div>
 
         <div class="slide">
@@ -557,7 +594,7 @@ jQuery('#dialog-window').addClass('mask-aligned-window');
 
         <div class="slide">
             <div class="count">#0</div>
-            <h1>JavaScript: Top 5 Optimizations</h1>
+            <h1>JavaScript & Any Language: Top 7 Optimizations</h1>
             <h2>[Tweaking your code]</h2>
         </div>
 
@@ -632,19 +669,29 @@ var data = {
             <h1>5. Use <strong>‘switch’</strong> instead of lengthy ‘<span style="text-decoration: line-through;color: red">if-then-else</span>’ statements.</h1>
         </div>
 
+        <div class="slide">
+            <h1>6. Use <span style="color:blue"><strong>‘Correct’</strong></span> data collection.</h1>
+        </div>
+
+        <div class="slide">
+            <h1>7. Consider <span style="color:blue"><strong>APIs & Algorithm</strong></span> performance characteristics.</h1>
+        </div>
+
         <div class="slide summary">
             <h1>Summary</h1>
             <ol reversed>
-                <li>Don't generate the UI on the server</li>
-                <li>Limit network access</li>
-                <li>Don't wait for the data to display the UI</li>
-                <li>Use hardware acceleration</li>
-                <li>Avoid click event's 300ms delay</li>
-                <li>Optimize images</li>
-                <li>Limit shadows and gradients</li>
+                <li>Don't generate the UI on the server.</li>
+                <li>Limit network access.</li>
+                <li>Don't wait for the data to display the UI.</li>
+                <li>Use hardware acceleration.</li>
+                <li>Avoid click event's 300ms delay.</li>
+                <li>Optimize images.</li>
+                <li>Limit shadows and gradients.</li>
                 <li>Do you need that framework?</li>
-                <li>Minimize browser reflows</li>
+                <li>Minimize browser reflows.</li>
+                <li>MFaster Deployment.</li>
                 <li>Test &amp; Tweak your code.</li>
+                <li>Optimize your code.</li>
             </ol>
         </div>
         <!-- Next presentation announcement -->
@@ -660,9 +707,8 @@ var data = {
         </div> -->
         <!-- Thanks and questions-->
         <div class="slide">
-            <h1>Thanks!</h1>
-            <h4>So Any ?</h4>
-            <img src="images/questions.jpg" class="full" />
+            <h1>Thanks! & Any ?</h1>
+            <img src="images/questions.gif" class="full" alt="" style="border-radius: 45%"/>
         </div>
     </div>
     <!-- end of '#slides' -->
@@ -673,7 +719,7 @@ var data = {
 
     <div id="menu">
         <div class="header">
-            <img src="css/img/keypoint.png" />
+            <img src="css/img/keypoint.png" alt=""/>
             <div class="title">Top 10 key</div>
         </div>
         <div class="topcoat-list__container scroller cf">
