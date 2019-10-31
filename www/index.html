@@ -19,14 +19,10 @@
             <span style="color: #26a7d7;font-weight: bold;font-size: 28px">@_tamanm</span>
         </p>
     </div>
-	
-	 <img style="position: absolute; top: 10px; left: 30px ; z-index: 6;"
-		 src="images/OGA.png" width="310" height="110" 
-		 alt="Oracle Groundbreakers Ambassador">
 
-    <img style="position: absolute; right: 10px; top: 10px; z-index: 6;"
-         src="images/Java Champoins.jpeg" width="100" height="100" 
-         alt="Java Champions">
+    <img style="position: absolute; top: 10px; left: 30px ; z-index: 6;" src="images/OGA.png" width="310" height="110" alt="Oracle Groundbreakers Ambassador">
+
+    <img style="position: absolute; right: 10px; top: 10px; z-index: 6;" src="images/Java Champoins.jpeg" width="100" height="100" alt="Java Champions">
 
     <div id="wrapper"></div>
 
@@ -35,24 +31,24 @@
         <div class="slide" style="background: url('images/speed.jpg');background-repeat:no-repeat; background-size:cover;width: 100%;height: 100%">
         </div>
 
-		<!-- Me, I, and Myself -->
+        <!-- Me, I, and Myself -->
         <div class="slide">
             <h1>Me, I, and Myself</h1>
             <img src="images/TamanFace.jpg" style="width: 200px;height: 200px;border-radius: 50%" alt="">
             <div style="text-align: left; font-size: 99%; margin: 0px 5% 0px 5%;">
                 <p><span class="topcoat-icon icon--user"></span><strong>Mohamed Taman</strong></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sr. Enterprise Architect.</p>
                 <p><span class="topcoat-icon icon--location"></span>DevTech, Belgrade, Serbia.</p>
-                <p><span class="topcoat-icon icon--more"></span>A Java Champions, Oracle Groundbreakers Ambassador, Java/Mobile/Web/Big Data/Cloud/Blockchain/DevOps Architect 
+                <p><span class="topcoat-icon icon--more"></span>A Java Champions, Oracle Groundbreakers Ambassador, Java/Mobile/Web/Big Data/Cloud/Blockchain/DevOps Architect
                     <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JCP, 2013-2015 Duke Award winner 3 times, 2013 JCP award winner, International Speaker.
                 </p>
-                <p><span class="topcoat-icon icon--more"></span>Authored a <strong>“JavaFX 8 essential”</strong> book, 
-                    <strong>"Hands-on Java 10 Programming with JShell"</strong> and, <strong>"Getting Started with Clean Code Java SE 9"</strong> 
-                    video training. A technical reviewer of <strong>“Getting Started with Oracle Public Cloud”</strong> book for Packt Publishing, while working on my new book <strong>"Secrets of the Java Champions"</strong>.
+                <p><span class="topcoat-icon icon--more"></span>Authored a <strong>“JavaFX 8 essential”</strong> book,
+                    <strong>"Hands-on Java 10 Programming with JShell"</strong> and, <strong>"Getting Started with Clean Code Java SE 9"</strong> video training. A technical reviewer of <strong>“Getting Started with Oracle Public Cloud”</strong> book
+                    for Packt Publishing, while working on my new book <strong>"Secrets of the Java Champions"</strong>.
                 </p>
             </div>
         </div>
 
-		<!-- Social links -->
+        <!-- Social links -->
         <div class="slide">
             <h1>You can find me here👇</h1>
             <div style="text-align: left">
@@ -62,27 +58,27 @@
                 <p><span class="topcoat-icon icon--more"></span>https://about.me/mohamedtaman</p>
                 <p><span class="topcoat-icon icon--facebook"></span>https://www.facebook.com/public/Mohamed-Mahmoud-Taman</p>
                 <p><span class="topcoat-icon icon--rss"></span>http://tamanmohamed.blogspot.com</p>
-                
+
             </div>
             <br/>
             <div>
                 Or more easer try to <i>google</i> 🕵 me <strong>"Mohamed Taman"</strong>
-            </div> 
+            </div>
         </div>
 
-		<!-- Camera capturing -->
+        <!-- Camera capturing -->
         <!-- <div class="slide">
             <h1 style="padding-bottom: 10px;">You</h1>
             <img id="audience-pic" />
             <button class="topcoat-button picture-btn"><span class="topcoat-icon icon--camera"></span></button>
         </div> -->
 
-		<!-- Slow -->
+        <!-- Slow -->
         <div class="slide">
             <h1>Slow 🐌</h1>
-            <img src="images/geometrixx.jpg" height="500" alt=""/><br/>
+            <img src="images/geometrixx.jpg" height="500" alt="" /><br/>
             <xmp class="prettyprint">
-<a href="product.php?id=101">Tuareg Summer</a>
+                <a href="product.php?id=101">Tuareg Summer</a>
             </xmp>
         </div>
 
@@ -113,16 +109,16 @@ $.get("product.php?id=101").done(function(page) {
         <div class="slide">
             <h1>Single Page Application</h1>
             <xmp class="prettyprint large">
-<html>
+                <html>
 
-<head>
-    <title>My App</title>
-    <script src="app.js"></script>
-</head>
+                <head>
+                    <title>My App</title>
+                    <script src="app.js"></script>
+                </head>
 
-<body></body>
+                <body></body>
 
-</html>
+                </html>
             </xmp>
         </div>
 
@@ -177,18 +173,19 @@ dataAdapter.getItems().done(function(data) {
 
         <div class="slide">
             <h1>Limit Result Set Height</h1>
-<pre class="prettyprint">
+            <pre class="prettyprint">
 /movies/46637/comments?lastId=100
 </pre>
         </div>
 
         <div class="slide">
             <h1>Limit Result Set Width</h1>
-    <pre class="prettyprint">
+            <pre class="prettyprint">
     {
         id:"1212121",
         name:"Mohamed Taman",
-        dsc:"Engineering Geek",
+        title:"Sr. Enterprise Architect",
+        <span style="text-decoration: line-through;">dsc:"Engineering Geek"</span>,
         image:"Not intrested to show :D"
     }  
     </pre>
@@ -212,7 +209,7 @@ $.ajax({url: "product/101"}).done(function(product) {
 
         <div class="slide">
             <h1>Fast</h1>
-<pre class="prettyprint">
+            <pre class="prettyprint">
 // Display view
 displayView();
 
@@ -222,26 +219,26 @@ $.ajax({url: "product/101"}).done(function(product) {
 });
 </pre>
         </div>
-    <div class="slide">
+        <div class="slide">
             <h1>Show some interactive loaders</h1>
-        <p style="text-align: center;">
-            <img src="images/load-indicator.gif" width="250" height="150" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/loading.gif"  width="150" height="150" alt="" />
-            <img src="images/preloader.gif" width="350" height="225" alt="" />
-            <img src="images/preloader1.gif" width="250" height="250" alt="" />
-            <img src="images/Loading1.gif"  width="350" height="200" alt="" />
-        </p>
-    </div>
+            <p style="text-align: center;">
+                <img src="images/load-indicator.gif" width="250" height="150" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="images/loading.gif" width="150" height="150" alt="" />
+                <img src="images/preloader.gif" width="350" height="225" alt="" />
+                <img src="images/preloader1.gif" width="250" height="250" alt="" />
+                <img src="images/Loading1.gif" width="350" height="200" alt="" />
+            </p>
+        </div>
 
         <div class="slide">
             <h1>Slow</h1>
-        </br>
+            </br>
             <pre class="prettyprint">
 $("#page").animate();
 </pre>
-<p>
-<img src="images/giphy.gif" width="250" height="250" alt="" />
-</p>
+            <p>
+                <img src="images/giphy.gif" width="250" height="250" alt="" />
+            </p>
         </div>
 
         <div class="slide">
@@ -254,7 +251,7 @@ $("#page").animate();
 
         <div class="slide">
             <div style="position:relative; width: 1024px; height: 600px;">
-                <img id="phone" src="images/iphone5.png" style="position: absolute;left:349px;top:0px;width: 326px;" alt=""/>
+                <img id="phone" src="images/iphone5.png" style="position: absolute;left:349px;top:0px;width: 326px;" alt="" />
                 <div id="pageA" class="page page-left" style="background-color:red">
                     <a class="topcoat-button" onclick="javascript:slide('pageA', 'page-left')">Left</a>
                     <a class="topcoat-button" onclick="javascript:slide('pageA', 'page-center')">Center</a>
@@ -288,25 +285,7 @@ $("#page").animate();
         <div class="slide">
             <h1>Slow</h1>
             <xmp class="prettyprint small">
-.page { 
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%; 
-} 
-.left { 
-	left: -100%; 
-} 
-.center { 
-	left: 0; 
-} 
-.right { 
-	left: 100%; 
-} 
-.transition { 
-	transition-duration: .25s; 
-}
+                .page { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } .left { left: -100%; } .center { left: 0; } .right { left: 100%; } .transition { transition-duration: .25s; }
             </xmp>
         </div>
 
@@ -347,15 +326,7 @@ $("#page").animate();
         <div class="slide">
             <h1>Use Native Scrolling</h1>
             <xmp class="prettyprint">
-#scroller { 
-    overflow: auto; 
-    -webkit-overflow-scrolling: touch; 
-    position: absolute; 
-    top: 48px; 
-    bottom: 0px; 
-    left: 0px; 
-    right: 0px; 
-}
+                #scroller { overflow: auto; -webkit-overflow-scrolling: touch; position: absolute; top: 48px; bottom: 0px; left: 0px; right: 0px; }
             </xmp>
         </div>
 
@@ -452,7 +423,7 @@ $("#page").animate();
                 <li>Host images on scalable, distributed systems (i.e. S3)</li>
                 <li>Avoid 404s for images</li>
                 <xmp class="prettyprint">
-<img src="{{pic}}" onerror='this.src="nopic.jpg"' /></xmp>
+                    <img src="{{pic}}" onerror='this.src="nopic.jpg"' /></xmp>
             </ul>
         </div>
 
@@ -548,7 +519,9 @@ jQuery('#dialog-window').addClass('mask-aligned-window');
         <div class="slide">
             <h1>Framework Considerations</h1>
             <ul style="padding: 0 60px;">
-                <li>Don't use a full-stack framework just <strong style="color: red;">because you like a small piece of it</strong> </br>(i.e. transitions our UI components).</br></br></li>
+                <li>Don't use a full-stack framework just <strong style="color: red;">because you like a small piece of it</strong> </br>(i.e. transitions our UI components).</br>
+                    </br>
+                </li>
                 <li>Understand the performance characteristics of libraries you use.</li>
             </ul>
         </div>
@@ -557,7 +530,7 @@ jQuery('#dialog-window').addClass('mask-aligned-window');
             <div class="count">#2</div>
             <h1>Faster Deployment</h1>
             <p>Make use of docker layers, by separating commands inside your <code>dockerfile</code></p>
-            <img src="images/DockerLayers.gif" alt="" height="300"/>
+            <img src="images/DockerLayers.gif" alt="" height="300" />
         </div>
 
         <div class="slide">
@@ -609,7 +582,7 @@ with (Math) {
     </pre>
         </div>
         <div class="slide">
-        	<h1>1. Limit Work Inside <strong>Loops</strong></h1>
+            <h1>1. Limit Work Inside <strong>Loops</strong></h1>
             <h2>Fast</h2>
             <pre class="prettyprint">
 with (Math) {
@@ -633,7 +606,7 @@ statusLayerWidth = (2 + topLayerWidth)    * ((layerWidth/2) * (0.5 * layerHeight
     </pre>
         </div>
         <div class="slide">
-        	<h1>2. Minimize <strong>Repeated Expressions</strong></h1>
+            <h1>2. Minimize <strong>Repeated Expressions</strong></h1>
             <h2>Fast</h2>
             <pre class="prettyprint">
 var changeVal = ((layerWidth/2) * (0.5 * layerHeight));
@@ -695,7 +668,7 @@ var data = {
             </ol>
         </div>
         <!-- Next presentation announcement -->
-       <!--  <div class="slide">
+        <!--  <div class="slide">
             <h2>Today also, I will talk about:</h2>
             <h1 style="color: blue;font-weight: bold;">Java SE 9, and its hidden treasures walkthrough<br/>
                 <img id="java9" src="images/java9.jpg" width="416" height="270" />
@@ -708,7 +681,7 @@ var data = {
         <!-- Thanks and questions-->
         <div class="slide">
             <h1>Thanks! & Any ?</h1>
-            <img src="images/questions.gif" class="full" alt="" style="border-radius: 45%"/>
+            <img src="images/questions.gif" class="full" alt="" style="border-radius: 45%" />
         </div>
     </div>
     <!-- end of '#slides' -->
@@ -719,7 +692,7 @@ var data = {
 
     <div id="menu">
         <div class="header">
-            <img src="css/img/keypoint.png" alt=""/>
+            <img src="css/img/keypoint.png" alt="" />
             <div class="title">Top 10 key</div>
         </div>
         <div class="topcoat-list__container scroller cf">
