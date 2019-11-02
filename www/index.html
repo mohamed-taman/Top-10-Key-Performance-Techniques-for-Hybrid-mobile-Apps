@@ -38,8 +38,8 @@
             <div style="text-align: left; font-size: 99%; margin: 0px 5% 0px 5%;">
                 <p><span class="topcoat-icon icon--user"></span><strong>Mohamed Taman</strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sr. Enterprise Architect.</p>
                 <p><span class="topcoat-icon icon--location"></span>DevTech, Belgrade, Serbia.</p>
-                <p><span class="topcoat-icon icon--more"></span>A Java Champions, Oracle Groundbreakers Ambassador, Java/Mobile/Web/Big Data/Cloud/Blockchain/DevOps Architect
-                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JCP, 2013-2015 Duke Award winner 3 times, 2013 JCP award winner, International Speaker.
+                <p><span class="topcoat-icon icon--more"></span>A Java Champions, Oracle Groundbreakers Ambassador, JCP, 2013-2015 Duke Award winner 3 times,
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2013 JCP award winner, International Speaker.
                 </p>
                 <p><span class="topcoat-icon icon--more"></span>Authored a <strong>“JavaFX 8 essential”</strong> book,
                     <strong>"Hands-on Java 10 Programming with JShell"</strong> and, <strong>"Getting Started with Clean Code Java SE 9"</strong> video training. A technical reviewer of <strong>“Getting Started with Oracle Public Cloud”</strong> book
@@ -62,17 +62,17 @@
             </div>
             <br/>
             <div>
-                Or more easer try to <i>google</i> 🕵 me <strong>"Mohamed Taman"</strong>
+                Or more easer try to <em>google</em> 🕵 me <strong>"Mohamed Taman"</strong>
             </div>
         </div>
 
         <!-- Slow -->
         <div class="slide">
-            <h1>Slow 🐌</h1>
+            <h1>What is the problem here! 🐌</h1></br>
             <img src="images/geometrixx.jpg" height="500" alt="" /><br/>
-            <xmp class="prettyprint">
-                <a href="product.php?id=101">Tuareg Summer</a>
-            </xmp>
+<xmp class="prettyprint">
+<a href="product.php?id=101">Tuareg Summer</a>
+</xmp>
         </div>
 
         <div class="slide">
@@ -94,29 +94,32 @@ $.get("product.php?id=101").done(function(page) {
         <div class="slide">
             <h1>Fast</h1>
             <ul>
-                <li>Create the UI in JavaScript at the client-side</li>
-                <li>Insert/remove views into/from the DOM as needed</li>
+                <li><strong>Create</strong> the UI in JavaScript at the client-side.</li>
+                <li><strong>Insert/remove</strong> views <strong>into/from</strong> the DOM as needed.</li>
             </ul>
         </div>
 
         <div class="slide">
             <h1>Single Page Application</h1>
-            <xmp class="prettyprint large">
-                <html>
+<xmp class="prettyprint large">
+    <html>
 
-                <head>
-                    <title>My App</title>
-                    <script src="app.js"></script>
-                </head>
+    <head>
+        <title>My App</title>
+        <script src="app.js"></script>
+    </head>
 
-                <body></body>
+    <body>
+    	<section>Page 1</section>
+    	<section>Page N</section>
+    </body>
 
-                </html>
-            </xmp>
+    </html>
+</xmp>
         </div>
 
         <div class="slide">
-            <h1>Slow</h1>
+            <h1>Slow 🐌</h1>
             <div id="spinner">
                 <div class="topcoat-spinner"></div>
             </div>
@@ -185,7 +188,7 @@ dataAdapter.getItems().done(function(data) {
         </div>
 
         <div class="slide">
-            <h1>Slow</h1>
+            <h1>Slow 🐌</h1>
             <pre class="prettyprint">
 // Get data
 $.ajax({url: "product/101"}).done(function(product) {
@@ -277,9 +280,27 @@ $("#page").animate();
 
         <div class="slide">
             <h1>Slow</h1>
-            <xmp class="prettyprint small">
-                .page { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } .left { left: -100%; } .center { left: 0; } .right { left: 100%; } .transition { transition-duration: .25s; }
-            </xmp>
+        <xmp class="prettyprint">
+            .page {   
+            	position: absolute; 
+            	top: 0; 
+            	left: 0; 
+            	width: 100%; 
+            	height: 100%; 
+            } 
+            .left { 
+            	left: -100%; 
+            } 
+            .center { 
+            	left: 0; 
+            } 
+            .right { 
+            	left: 100%; 
+            } 
+            .transition { 
+            	transition-duration: .25s; 
+            }
+        </xmp>
         </div>
 
 
@@ -309,22 +330,24 @@ $("#page").animate();
 			</pre>
         </div>
 
-        <!--
-<div class="slide">
-    <h1>PageSlider</h1>
-    https://github.com/ccoenraets/PageSlider
-</div>
--->
 
         <div class="slide">
             <h1>Use Native Scrolling</h1>
             <xmp class="prettyprint">
-                #scroller { overflow: auto; -webkit-overflow-scrolling: touch; position: absolute; top: 48px; bottom: 0px; left: 0px; right: 0px; }
+		#scroller { 
+		  overflow: auto; 
+		  -webkit-overflow-scrolling: touch; 
+		  position: absolute; 
+		  top: 48px; 
+		  bottom: 0px; 
+		  left: 0px; 
+		  right: 0px; 
+		}
             </xmp>
         </div>
 
         <div class="slide">
-            <h1>Slow</h1>
+            <h1>Slow 🐌</h1>
             <ul class="topcoat-list" style="width: 400px;margin: auto;">
                 <li class="topcoat-list__item"><a href="#" class="needsclick">Item 1</a></li>
                 <li class="topcoat-list__item"><a href="#" class="needsclick">Item 2</a></li>
@@ -354,12 +377,22 @@ $("#page").animate();
         <div class="slide">
             <h1>FastClick</h1>
             <h2><a href="https://github.com/ftlabs/fastclick" target="_system">https://github.com/ftlabs/fastclick</a></h2>
-            <p style="padding: 0 60px;">“FastClick uses document.createEvent to fire a synthetic click event as soon as touchend is fired. It then suppresses the additional click event created by the browser.”</p>
+            <p style="padding: 0 60px;">“FastClick uses <code>document.createEvent</code> to fire a synthetic click event as soon as touchend is fired.</br> It then suppresses the additional click event created by the browser.”</p>
+        </div>
+        <div class="slide">
+            <h1>When it isn't needed</h1>
+            <ul style="padding-left:250px;">
+            	<li>Chrome 32+ on Android with <code>width=device-width</code> in the viewport meta tag doesn't have a 300ms delay.
+            		<pre class="prettyprint small"> &lt;meta name="viewport" content="width=device-width, initial-scale=1"></pre>
+            	</li>
+            	</br>
+            	<li>Also all versions with <code>user-scalable=no</code> in the viewport meta tag.<br> But be aware that it also disables pinch zooming, which may be an <em>accessibility concern</em>.</li>
+            </ul>
+            
         </div>
 
-
         <div class="slide">
-            <h1>Slow</h1>
+            <h1>Slow 🐌</h1>
             <pre class="prettyprint">
 &lt;li>&lt;img src="img/icon_home.png"/>Call Home&lt;/li>
 &lt;li>&lt;img src="img/icon_office.png"/>Call Office&lt;/li>
@@ -380,7 +413,7 @@ $("#page").animate();
         <div class="slide">
             <h1>Use CSS Sprite Sheets</h1>
             <img src="images/glyphicons-halflings.png" />
-            <h2>glyphicons-halflings.png</h2>
+            <h5>glyphicons-halflings.png</h5>
         </div>
 
         <div class="slide">
@@ -402,12 +435,6 @@ $("#page").animate();
 </pre>
         </div>
 
-        <!--
-<div class="slide">
-    <h1>Demo</h1>
-    <p><img src="images/spritesheet.jpg" style="padding:16px;background-color:white;"></p>
-</div>
--->
 
         <div class="slide">
             <h1>Optimizing Images</h1>
@@ -415,8 +442,7 @@ $("#page").animate();
                 <li>Use the right image size (don't scale images in HTML)</li>
                 <li>Host images on scalable, distributed systems (i.e. S3)</li>
                 <li>Avoid 404s for images</li>
-                <xmp class="prettyprint">
-                    <img src="{{pic}}" onerror='this.src="nopic.jpg"' /></xmp>
+                <xmp class="prettyprint"><img src="{{pic}}" onerror="this.src='nopic.jpg'" alt="" /></xmp>
             </ul>
         </div>
 
@@ -445,11 +471,11 @@ $("#page").animate();
         <div class="slide">
             <h1>Minimizing Browser Reflows</h1>
             <ul>
-                <li>Reduce the number of DOM elements</li>
-                <li>Minimize access to the DOM</li>
-                <li>Update elements "offline" before reinserting into DOM</li>
-                <li>Avoid tweaking layout in JavaScript</li>
-                <li>Batch your DOM changes, especially when updating styles.</li>
+                <li><strong>Reduce</strong> the number of DOM elements.</li>
+                <li><strong>Minimize</strong> access to the DOM.</li>
+                <li>Update elements <strong>"offline"</strong> before reinserting into DOM.</li>
+                <li><strong>Avoid</strong> tweaking layout in JavaScript.</li>
+                <li><strong>Batch</strong> your DOM changes, especially when updating styles.</li>
             </ul>
         </div>
 
@@ -553,7 +579,7 @@ jQuery('#dialog-window').addClass('mask-aligned-window');
                 <li>Simulators are just that: <strong>Simulators</strong></li>
                 <li>Emulators are just that: <strong>Emulators</strong></li>
                 <li>Simulators are <u>fast</u>, while emulators are <u>slow</u>.</li>
-                <li>Will never get the real feeling of your app touch responses, by using either <i>simulators</i> or <i>emulators</i>.</li>
+                <li>Will never get the real feeling of your app touch responses, by using either <em>simulators</em> or <em>emulators</em>.</li>
                 <li>Test on <strong>many devices</strong> as you can with <strong>different OS versions</strong>.</li>
             </ul>
         </div>
@@ -661,14 +687,14 @@ var data = {
             </ol>
         </div>
         <!-- Next presentation announcement -->
-        <!--  <div class="slide">
+        <!-- <div class="slide">
             <h2>Today also, I will talk about:</h2>
             <h1 style="color: blue;font-weight: bold;">Java SE 9, and its hidden treasures walkthrough<br/>
-                <img id="java9" src="images/java9.jpg" width="416" height="270" />
+                <img id="java9" src="images/java9.jpg" width="416" height="270" alt="" />
             </h1>
             <p><strong>Meet me at:</strong> 12:00 - 12:50<br/>
-                <strong>Language:</strong>   English<br/>
-                <strong>Room:</strong>       Cupertino   
+                <strong>Language:</strong> English<br/>
+                <strong>Room:</strong> Cupertino
             </p>
         </div> -->
         <!-- Thanks and questions-->
